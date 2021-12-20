@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="153dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="Save"
+        android:background="#078E04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/regiter3"
+        android:layout_width="159dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Regiter"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPass2User"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-medium"
+        android:hint="    Retype Password"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPassUser"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-medium"
+        android:hint="    Password"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtEmailUser"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-medium"
+        android:hint="    Email"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPhoneUser"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-medium"
+        android:hint="    Phone"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNameUser"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="516dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-medium"
+        android:hint="    Name"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
